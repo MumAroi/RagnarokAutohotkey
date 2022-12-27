@@ -1,25 +1,26 @@
-F1::
-While GetKeyState("F1","P"){
-  ControlSend,, {F1}, Ragnarok
-}
-Return
+#IfWinActive ahk_class Ragnarok
+  F1::
+  While GetKeyState("F1","P"){
+    ControlSend,, {F1}, Ragnarok
+  }
+  Return
 
-F3::
-While GetKeyState("F3","P"){
-  ControlSend,, {F1}, Ragnarok
-  ControlSend,, {l}, Ragnarok
-  Sleep 300
-  ControlSend,, {k}, Ragnarok
-}
-Return
+  F2::
+    ControlSend,, {l}, Ragnarok
+    Sleep 250
+    ControlSend,, {j}, Ragnarok
+    Sleep 250
+    ControlSend,, {Enter}, Ragnarok
+    Sleep 500
+    ControlSend,, {k}, Ragnarok
+  Return
 
-F4::
-  ControlSend,, {n}, Ragnarok
-  Sleep 250
-  ControlSend,, {o}, Ragnarok
-  Sleep 250
-  ControlSend,, {Enter}, Ragnarok
-  Sleep 500
-  ControlSend,, {m}, Ragnarok
-Return
+  LButton::
+  If (toggle := !toggle) {
+  Click, down, Left
+  } Else {
+  Click, up, Left
+  }
+  Return
+#IfWinActive
 
