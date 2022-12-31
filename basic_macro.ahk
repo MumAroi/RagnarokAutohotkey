@@ -30,5 +30,3 @@
 ; Temporal Str Boots [Infinite Vagabond Wolf Card]
 ; Upgrade Part - E [Brown Rat Card]
 ; Tengu 
-
-24+25+22+31
