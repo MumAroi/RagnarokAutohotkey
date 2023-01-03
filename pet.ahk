@@ -51,9 +51,15 @@ if(WaitingPet > 0){
         SetControlDelay -1
         WinActivate, ahk_id %WindowActiveId%
         Click, %xpos% %ypos%,
-        sleep, 100
+        sleep, 500
         Click, %xpos% %ypos%,
-        sleep, 100
+        sleep, 500
+        Click, %xpos% %ypos%,
+        sleep, 500
+        Click, %xpos% %ypos%,
+        sleep, 500
+        Click, %expos% %eypos%,
+        sleep, 500
         Click, %expos% %eypos%,
     }
 }

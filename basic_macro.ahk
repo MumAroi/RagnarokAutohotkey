@@ -30,3 +30,6 @@
 ; Temporal Str Boots [Infinite Vagabond Wolf Card]
 ; Upgrade Part - E [Brown Rat Card]
 ; Tengu 
+
+; ม ม้า คึกคัก 1/12 
+; บัพกลากนะคับ
