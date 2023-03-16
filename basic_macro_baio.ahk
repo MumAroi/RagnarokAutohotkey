@@ -31,6 +31,13 @@
     }
   Return
 
+  ; B::
+  ;   While GetKeyState("b","P"){
+  ;     ControlSend,, {b}, Ragnarok
+  ;     Sleep 50
+  ;   }
+  ; Return
+
   ; F3::
   ;   if GetKeyState("F3","P") {
   ;     ControlSend,, {k}, Ragnarok
